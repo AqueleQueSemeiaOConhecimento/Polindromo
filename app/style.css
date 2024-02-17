@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+*{
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 21px;
+  background-color: #efefef;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+form{
+    margin-top: 10%;
+}
+
+input[type="submit"]{
+    display: block;
+    width: 100%;
+    align-items: center;
+    font-size: 18px;    
+    border: solid 2px transparent;
+    border-bottom: solid 2px black;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #dcdcdc;
+    border: solid 2px black;
+    border-bottom: solid 2px transparent;
+    text-decoration: underline;
+}
+
+label{
+    text-transform: uppercase;
+}
+
+li{
+    list-style-type: none;
+}
